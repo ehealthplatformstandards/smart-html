@@ -3,7 +3,7 @@
   "url": "https://www.ehealth.fgov.be/standards/fhir/vaccination",
   "style": "fhir.layout",
   "server": "apache",
-  "org": "eHealth",
+  "org": "eHealth Platform Belgium",
   "index-template": "index.template",
   "clone-xml-json": true
   },
@@ -11,6 +11,10 @@
       "npm": "hl7.fhir.be.vaccination",
       "canonical": "https://www.ehealth.fgov.be/standards/fhir/vaccination", 
       "destination": "/"
-    }
-    
-  ]  }
+    } 
+  ],
+	"feeds": {
+		"package": "package-feed.xml",
+		"publication": "publication-feed.xml"
+	}
+}
